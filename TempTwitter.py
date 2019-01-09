@@ -19,7 +19,8 @@ def get_api_object(cfg):
     return tweepy.API(auth)
 
 mybolt = Bolt(conf.bolt_cloud_api_key, conf.device_id)
-temperature_threshold = 250
+#Raw temperature value. Can be converted.
+temperature_threshold = 250  
 while True:
     response = mybolt.analogRead('A0')
     data = json.loads(response)
