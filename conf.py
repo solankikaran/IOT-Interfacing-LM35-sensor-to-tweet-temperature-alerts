@@ -1,0 +1,6 @@
+consumer_key = " "
+consumer_secret = " "
+access_token = " "
+access_token_secret = " "
+bolt_cloud_api_key = " "
+device_id = " "
